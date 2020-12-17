@@ -88,7 +88,3 @@ jobs:
       run: sleep 20
     - name: Run tests
       run: python ./ci/docs200.py
-
-  broken_links:
-    - name: Hugo Broken Link Check
-      uses: marccampbell/hugo-linkcheck-action@v0.1.3
